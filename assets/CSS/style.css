@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+   
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+:root{
+    --text-13 : 13px;
+    --text-16 : 16px;
+    --text-20 : 20px;
+    --text-24 : 24px;
+    --text-32 : 32px;
+    --text-40 : 40px;
+    --text-48 : 48px;
+}
+
+strong{
+    color: white;
+}
+
+.text-black{
+    color: #191919;
+}
+
+.text-orange{
+    color: #DC5F00;
+}
+
+.text-midOrange{
+    color: #DC5F00B2;
+}
+.tex-white{
+    color: white;
+}
+.flex-basic{
+    flex-basis: 20%;
+}
+
+ /* Navtigation */
+#nav{
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    /* position: fixed; */
+    --height-nav :48px;
+    border-bottom: 1px solid black;
+
+}
+.nav-content{
+    margin-left: 42px;
+    margin-right: 42px;
+    height: var(--height-nav);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-begin > img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav-between li{
+    line-height: var(--height-nav);
+    display: inline-block;
+    padding: 0 48px;
+}
+
+
+.nav-between li:hover {
+    background-color: #DC5F00;
+}
+
+.nav-end img{
+    display: inline-block;
+    padding: 0 12px;
+    cursor: pointer;
+    transition: all;
+}
+.nav-end img:hover{
+    transform: translateY(5px);
+}
+
+
+
+
+
+ /* Slider */
+#slider{
+    right: 0;
+    left: 0;
+}
+
+.slider-content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 60px;
+    margin-left:auto ;
+    margin-right: auto;
+    border-radius: 12px;
+    background: #191919;
+}
+
+.slider-content_left{
+    margin-top: 44px;
+    margin-left: 24px;
+    flex: 40%;
+}
+
+.slider-heading{
+    font-size: 62px;
+    font-weight: 700;
+    text-align: start;
+    color: va;
+}
+
+.slider-sologan{
+    margin-top: 12px;
+    font-size: var(--text-24);
+    font-weight: 700;
+}
+
+
+.phone-time{
+    margin-top: 45px;
+    display: flex;
+}
+
+.phone-time p{
+    margin-right: 28px;
+}
+
+.phone-time p > i {
+    padding-right: 8px;
+}
+
+.slider-bnt{
+    margin-top: 44px;
+    display: flex;
+}
+
+.slider-bnt > button{
+    min-width: 200px;
+    padding: 28px;
+    border-radius: 4px;
+}
+.slider-bnt .bnt-dathang{
+    margin-right: 48px;
+    background-color: #CF0A0A;
+}
+
+.slider-content_right{
+    display:flex;
+    justify-content: center;
+    flex: 60%;
+}
+
+.slider-content_right > img{
+    width: 100%;
+
+}
+
+
+
+
+#bestself{
+
+}
+
+#service{
+
+}
+
+#footer{
+
+}
+
